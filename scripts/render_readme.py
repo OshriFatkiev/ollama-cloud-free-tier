@@ -115,7 +115,7 @@ def render_table(models: list[dict[str, Any]]) -> str:
         status = STATUS_LABELS.get(row.get("status"), "⚠️")
         usage = format_usage(row.get("usage"))
 
-        lines.append(f"| `{model}` | {status} | {usage} |")
+        lines.append(f"| [`{model}`](https://ollama.com/library/{model}) | {status} | {usage} |")
 
     return "\n".join(lines)
 
