@@ -1,0 +1,40 @@
+[project]
+name = "ollama-free-cloud-models"
+version = "0.1.0"
+description = "Unofficial tracker for Ollama cloud models that work on the Free tier."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "beautifulsoup4>=4.12.3",
+  "httpx>=0.27.2",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "ruff>=0.4.0",
+]
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "D", "SIM"]
+# Ignore D100-D103 (missing docstrings) since we only want high-level module docstrings,
+# not verbose docstrings on every simple helper function.
+ignore = ["D100", "D101", "D102", "D103", "D107"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true

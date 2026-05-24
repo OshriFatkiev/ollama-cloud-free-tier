@@ -1,0 +1,146 @@
+{"checked_at": "2026-05-24T05:35:29Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 26c61580-f204-408e-9a9a-a029791cbdf9)", "http_status": 403, "model": "deepseek-v3.2:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:35:39Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 7eefcd49-f328-41c5-868f-ced21f6f9e74)", "http_status": 403, "model": "deepseek-v4-flash:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:35:49Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 38291475-15e8-4377-8991-9487f3693cb8)", "http_status": 403, "model": "deepseek-v4-pro:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:36:00Z", "error_excerpt": null, "http_status": 200, "model": "devstral-small-2:24b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:36:10Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 348a1dbf-717e-4c89-bfd4-9e4487318466)", "http_status": 403, "model": "gemini-3-flash-preview:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:36:21Z", "error_excerpt": null, "http_status": 200, "model": "gemma4:31b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:36:31Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.7:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:36:45Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 127abca0-23d2-4b47-848f-55bd86faad1d)", "http_status": 403, "model": "glm-5.1:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:36:56Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 9d1645bf-006c-4cf9-ad6d-1e104971febd)", "http_status": 403, "model": "glm-5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:37:06Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:120b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:37:16Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 411d9dce-f166-44de-9a79-404a2419b00c)", "http_status": 403, "model": "kimi-k2.6:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:37:27Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.1:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:37:37Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.5:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:37:48Z", "error_excerpt": "this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: 56e565e6-f50c-4ace-b573-f87be1be2ea6)", "http_status": 403, "model": "minimax-m2.7:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:37:58Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:14b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:38:09Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:3b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:38:20Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:8b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:38:35Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-nano:30b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:38:46Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-super:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:38:56Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-coder-next:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:54:20Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.2:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:54:25Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-flash:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:54:31Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-pro:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:54:36Z", "error_excerpt": null, "http_status": 200, "model": "devstral-small-2:24b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:54:42Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "gemini-3-flash-preview:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:54:48Z", "error_excerpt": null, "http_status": 200, "model": "gemma4:31b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:54:53Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.7:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:55:00Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5.1:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:55:05Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:55:11Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:120b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:55:16Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2.6:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:55:22Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.1:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:55:27Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.5:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:55:33Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "minimax-m2.7:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:55:38Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:14b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:55:44Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:3b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:55:49Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:8b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:55:55Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-nano:30b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:56:01Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-super:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:56:06Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-coder-next:cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:56:12Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-next:80b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T05:56:19Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:397b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:56:24Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T05:56:30Z", "error_excerpt": null, "http_status": 200, "model": "rnj-1:8b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:05:44Z", "error_excerpt": null, "http_status": 200, "model": "cogito-2.1:671b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:05:50Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.1:671b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:05:55Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.2:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:06:00Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-flash:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:06:06Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-pro:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:06:11Z", "error_excerpt": null, "http_status": 200, "model": "devstral-2:123b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:06:17Z", "error_excerpt": null, "http_status": 200, "model": "devstral-small-2:24b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:06:22Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "gemini-3-flash-preview:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:06:28Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:12b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:06:33Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:27b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:06:39Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:4b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:06:45Z", "error_excerpt": null, "http_status": 200, "model": "gemma4:31b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:06:50Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.6:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:06:56Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.7:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:07:02Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5.1:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:07:07Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:07:12Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:120b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:07:18Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:20b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:07:24Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2-thinking:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:07:29Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2.5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:07:35Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2.6:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:07:40Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2:1t-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:07:45Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.1:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:07:51Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.5:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:08:15Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "minimax-m2.7:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:08:21Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:08:27Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:14b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:08:33Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:3b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:08:38Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:8b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:08:45Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "mistral-large-3:675b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:08:50Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-nano:30b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:08:56Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-super:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:09:02Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-coder-next:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:09:07Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-coder:480b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:09:13Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-next:80b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:09:20Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-vl:235b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:09:31Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-vl:235b-instruct-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:09:37Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:397b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:09:42Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:09:48Z", "error_excerpt": null, "http_status": 200, "model": "rnj-1:8b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:27:49Z", "error_excerpt": null, "http_status": 200, "model": "cogito-2.1:671b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:27:55Z", "error_excerpt": null, "http_status": 200, "model": "cogito-2.1:671b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:27:58Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.1:671b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:28:02Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.2:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:28:11Z", "error_excerpt": null, "http_status": 200, "model": "cogito-2.1:671b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:15Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.1:671b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:28:18Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.2:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:28:21Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-flash:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:28:25Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-pro:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:28:28Z", "error_excerpt": null, "http_status": 200, "model": "devstral-2:123b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:32Z", "error_excerpt": null, "http_status": 200, "model": "devstral-small-2:24b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:35Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "gemini-3-flash-preview:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:28:39Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:12b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:42Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:27b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:46Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:4b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:50Z", "error_excerpt": null, "http_status": 200, "model": "gemma4:31b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:53Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.6:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:28:57Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.7:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:29:01Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5.1:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:29:04Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:29:08Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:120b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:29:11Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:20b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:11Z", "error_excerpt": null, "http_status": 200, "model": "cogito-2.1:671b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:12Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.1:671b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:14Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v3.2:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:15Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-flash:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:16Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-pro:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:18Z", "error_excerpt": null, "http_status": 200, "model": "devstral-2:123b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:19Z", "error_excerpt": null, "http_status": 200, "model": "devstral-small-2:24b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:21Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "gemini-3-flash-preview:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:22Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:12b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:24Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:27b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:26Z", "error_excerpt": null, "http_status": 200, "model": "gemma3:4b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:28Z", "error_excerpt": null, "http_status": 200, "model": "gemma4:31b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:30Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.6:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:32Z", "error_excerpt": null, "http_status": 200, "model": "glm-4.7:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:34Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5.1:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:35Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:37Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:120b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:38Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:20b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:40Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2-thinking:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:41Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2.5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:43Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2.6:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:44Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2:1t-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:45Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.1:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:47Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2.5:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:49Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "minimax-m2.7:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:51Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m2:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:53Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:14b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:55Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:3b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:56Z", "error_excerpt": null, "http_status": 200, "model": "ministral-3:8b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:30:58Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "mistral-large-3:675b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:30:59Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-nano:30b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:31:01Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-super:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:31:02Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-coder-next:cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:31:04Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-coder:480b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:31:07Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-next:80b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:31:08Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-vl:235b-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:31:14Z", "error_excerpt": null, "http_status": 200, "model": "qwen3-vl:235b-instruct-cloud", "status": "free"}
+{"checked_at": "2026-05-24T06:31:16Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:397b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:31:18Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-05-24T06:31:19Z", "error_excerpt": null, "http_status": 200, "model": "rnj-1:8b-cloud", "status": "free"}

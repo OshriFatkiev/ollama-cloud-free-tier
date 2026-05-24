@@ -1,0 +1,282 @@
+[
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "cogito-2.1:671b-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "deepseek-v3.1:671b-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "deepseek-v3.2:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "deepseek-v4-flash:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "deepseek-v4-pro:cloud",
+    "usage": "extra high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "devstral-2:123b-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "devstral-small-2:24b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gemini-3-flash-preview:cloud",
+    "usage": "extra high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gemma3:12b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gemma3:27b-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gemma3:4b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gemma4:31b-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "glm-4.6:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "glm-4.7:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "glm-5.1:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "glm-5:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gpt-oss:120b-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gpt-oss:20b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "kimi-k2-thinking:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "kimi-k2.5:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "kimi-k2.6:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "kimi-k2:1t-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "minimax-m2.1:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "minimax-m2.5:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "minimax-m2.7:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "minimax-m2:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "ministral-3:14b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "ministral-3:3b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "ministral-3:8b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "mistral-large-3:675b-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "nemotron-3-nano:30b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "nemotron-3-super:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "qwen3-coder-next:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "qwen3-coder:480b-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "qwen3-next:80b-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "qwen3-vl:235b-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "qwen3-vl:235b-instruct-cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "qwen3.5:397b-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "qwen3.5:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "rnj-1:8b-cloud",
+    "usage": "medium"
+  }
+]
