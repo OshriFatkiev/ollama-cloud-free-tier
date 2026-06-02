@@ -208,6 +208,14 @@
     "usage": "medium"
   },
   {
+    "checked_at": "2026-06-02T05:31:15Z",
+    "error_excerpt": null,
+    "http_status": 200,
+    "model": "minimax-m3:cloud",
+    "status": "free",
+    "usage": "high"
+  },
+  {
     "checked_at": "2026-05-30T09:16:17Z",
     "error_excerpt": null,
     "http_status": 200,
