@@ -41,6 +41,7 @@ It answers one question:
 | [`minimax-m2.1:cloud`](https://ollama.com/library/minimax-m2.1:cloud) | ✅ | ▰▰▱▱ |
 | [`minimax-m2.5:cloud`](https://ollama.com/library/minimax-m2.5:cloud) | ✅ | ▰▰▱▱ |
 | [`minimax-m2:cloud`](https://ollama.com/library/minimax-m2:cloud) | ✅ | ▰▰▱▱ |
+| [`minimax-m3:cloud`](https://ollama.com/library/minimax-m3:cloud) | ✅ | ▰▰▰▱ |
 | [`ministral-3:14b-cloud`](https://ollama.com/library/ministral-3:14b-cloud) | ✅ | ▰▱▱▱ |
 | [`ministral-3:3b-cloud`](https://ollama.com/library/ministral-3:3b-cloud) | ✅ | ▰▱▱▱ |
 | [`ministral-3:8b-cloud`](https://ollama.com/library/ministral-3:8b-cloud) | ✅ | ▰▱▱▱ |
