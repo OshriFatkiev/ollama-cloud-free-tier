@@ -24,7 +24,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:15:13Z",
+    "checked_at": "2026-06-07T05:19:21Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "deepseek-v4-flash:cloud",
@@ -32,7 +32,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-05-30T09:15:15Z",
+    "checked_at": "2026-06-07T05:19:23Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "deepseek-v4-pro:cloud",
@@ -48,7 +48,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:15:20Z",
+    "checked_at": "2026-06-07T05:19:26Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "devstral-small-2:24b-cloud",
@@ -56,7 +56,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-05-30T09:15:23Z",
+    "checked_at": "2026-06-07T05:19:28Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "gemini-3-flash-preview:cloud",
@@ -88,12 +88,12 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-05-30T09:15:33Z",
+    "checked_at": "2026-06-07T05:19:31Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gemma4:31b-cloud",
     "status": "free",
-    "usage": "medium"
+    "usage": "low"
   },
   {
     "checked_at": "2026-05-30T09:15:40Z",
@@ -104,7 +104,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:15:43Z",
+    "checked_at": "2026-06-07T05:19:33Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "glm-4.7:cloud",
@@ -112,7 +112,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:15:46Z",
+    "checked_at": "2026-06-07T05:19:36Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "glm-5.1:cloud",
@@ -120,7 +120,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:15:48Z",
+    "checked_at": "2026-06-07T05:19:38Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "glm-5:cloud",
@@ -128,7 +128,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:15:50Z",
+    "checked_at": "2026-06-07T05:19:40Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gpt-oss:120b-cloud",
@@ -136,7 +136,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-05-30T09:15:53Z",
+    "checked_at": "2026-06-07T05:19:43Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gpt-oss:20b-cloud",
@@ -152,7 +152,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:15:58Z",
+    "checked_at": "2026-06-07T05:19:45Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "kimi-k2.5:cloud",
@@ -160,7 +160,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:16:00Z",
+    "checked_at": "2026-06-07T05:19:47Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "kimi-k2.6:cloud",
@@ -176,7 +176,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:16:05Z",
+    "checked_at": "2026-06-07T05:19:49Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "minimax-m2.1:cloud",
@@ -184,7 +184,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-05-30T09:16:09Z",
+    "checked_at": "2026-06-07T05:19:52Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "minimax-m2.5:cloud",
@@ -192,7 +192,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-05-30T09:16:12Z",
+    "checked_at": "2026-06-07T05:20:10Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "minimax-m2.7:cloud",
@@ -208,7 +208,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-06-02T05:31:15Z",
+    "checked_at": "2026-06-07T05:20:12Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "minimax-m3:cloud",
@@ -248,7 +248,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:16:26Z",
+    "checked_at": "2026-06-07T05:20:15Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-nano:30b-cloud",
@@ -256,7 +256,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-05-30T09:16:29Z",
+    "checked_at": "2026-06-07T05:20:18Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-super:cloud",
@@ -264,12 +264,20 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-05-30T09:16:31Z",
+    "checked_at": "2026-06-07T05:20:20Z",
+    "error_excerpt": null,
+    "http_status": 200,
+    "model": "nemotron-3-ultra:cloud",
+    "status": "free",
+    "usage": "high"
+  },
+  {
+    "checked_at": "2026-06-07T05:20:23Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "qwen3-coder-next:cloud",
     "status": "free",
-    "usage": "high"
+    "usage": "medium"
   },
   {
     "checked_at": "2026-05-30T09:16:34Z",
@@ -304,7 +312,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-05-30T09:16:54Z",
+    "checked_at": "2026-06-07T05:20:25Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "qwen3.5:397b-cloud",
@@ -312,7 +320,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-05-30T09:16:56Z",
+    "checked_at": "2026-06-07T05:20:27Z",
     "error_excerpt": "this model requires a subscription, upgrade for access:",
     "http_status": 403,
     "model": "qwen3.5:cloud",
