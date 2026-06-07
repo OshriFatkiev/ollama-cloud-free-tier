@@ -33,7 +33,7 @@ It answers one question:
 | [`gemma3:12b-cloud`](https://ollama.com/library/gemma3:12b-cloud) | ✅ | ▰▱▱▱ |
 | [`gemma3:27b-cloud`](https://ollama.com/library/gemma3:27b-cloud) | ✅ | ▰▰▱▱ |
 | [`gemma3:4b-cloud`](https://ollama.com/library/gemma3:4b-cloud) | ✅ | ▰▱▱▱ |
-| [`gemma4:31b-cloud`](https://ollama.com/library/gemma4:31b-cloud) | ✅ | ▰▰▱▱ |
+| [`gemma4:31b-cloud`](https://ollama.com/library/gemma4:31b-cloud) | ✅ | ▰▱▱▱ |
 | [`glm-4.6:cloud`](https://ollama.com/library/glm-4.6:cloud) | ✅ | ▰▰▰▱ |
 | [`glm-4.7:cloud`](https://ollama.com/library/glm-4.7:cloud) | ✅ | ▰▰▰▱ |
 | [`gpt-oss:120b-cloud`](https://ollama.com/library/gpt-oss:120b-cloud) | ✅ | ▰▰▱▱ |
@@ -47,7 +47,8 @@ It answers one question:
 | [`ministral-3:8b-cloud`](https://ollama.com/library/ministral-3:8b-cloud) | ✅ | ▰▱▱▱ |
 | [`nemotron-3-nano:30b-cloud`](https://ollama.com/library/nemotron-3-nano:30b-cloud) | ✅ | ▰▱▱▱ |
 | [`nemotron-3-super:cloud`](https://ollama.com/library/nemotron-3-super:cloud) | ✅ | ▰▰▱▱ |
-| [`qwen3-coder-next:cloud`](https://ollama.com/library/qwen3-coder-next:cloud) | ✅ | ▰▰▰▱ |
+| [`nemotron-3-ultra:cloud`](https://ollama.com/library/nemotron-3-ultra:cloud) | ✅ | ▰▰▰▱ |
+| [`qwen3-coder-next:cloud`](https://ollama.com/library/qwen3-coder-next:cloud) | ✅ | ▰▰▱▱ |
 | [`qwen3-coder:480b-cloud`](https://ollama.com/library/qwen3-coder:480b-cloud) | ✅ | ▰▰▰▱ |
 | [`qwen3-next:80b-cloud`](https://ollama.com/library/qwen3-next:80b-cloud) | ✅ | ▰▰▱▱ |
 | [`qwen3-vl:235b-cloud`](https://ollama.com/library/qwen3-vl:235b-cloud) | ✅ | ▰▰▰▱ |

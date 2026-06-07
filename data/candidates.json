@@ -3,13 +3,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "deepseek-v3.2:cloud",
-    "usage": "high"
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "deepseek-v4-flash:cloud",
     "usage": "medium"
   },
@@ -66,6 +59,27 @@
     "discovered_from": [
       "public_cloud_library"
     ],
+    "model": "gpt-oss:120b-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "gpt-oss:20b-cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "kimi-k2.5:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
     "model": "kimi-k2.6:cloud",
     "usage": "high"
   },
@@ -115,14 +129,14 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "qwen3-coder-next:cloud",
-    "usage": "medium"
+    "model": "nemotron-3-ultra:cloud",
+    "usage": "high"
   },
   {
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "qwen3-next:80b-cloud",
+    "model": "qwen3-coder-next:cloud",
     "usage": "medium"
   },
   {
@@ -137,13 +151,6 @@
       "public_cloud_library"
     ],
     "model": "qwen3.5:cloud",
-    "usage": "medium"
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "rnj-1:8b-cloud",
     "usage": "medium"
   }
 ]
