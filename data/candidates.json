@@ -17,13 +17,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "devstral-small-2:24b-cloud",
-    "usage": "low"
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "gemini-3-flash-preview:cloud",
     "usage": "extra high"
   },
@@ -81,6 +74,13 @@
       "public_cloud_library"
     ],
     "model": "kimi-k2.6:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "kimi-k2.7-code:cloud",
     "usage": "high"
   },
   {

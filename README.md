@@ -64,6 +64,7 @@ It answers one question:
 | [`kimi-k2-thinking:cloud`](https://ollama.com/library/kimi-k2-thinking:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2.5:cloud`](https://ollama.com/library/kimi-k2.5:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2.6:cloud`](https://ollama.com/library/kimi-k2.6:cloud) | 🔒 | ▰▰▰▱ |
+| [`kimi-k2.7-code:cloud`](https://ollama.com/library/kimi-k2.7-code:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2:1t-cloud`](https://ollama.com/library/kimi-k2:1t-cloud) | 🔒 | ▰▰▰▱ |
 | [`minimax-m2.7:cloud`](https://ollama.com/library/minimax-m2.7:cloud) | 🔒 | ▰▰▱▱ |
 | [`mistral-large-3:675b-cloud`](https://ollama.com/library/mistral-large-3:675b-cloud) | 🔒 | ▰▰▰▱ |
