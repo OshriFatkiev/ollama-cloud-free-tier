@@ -25,7 +25,7 @@
       "public_cloud_library"
     ],
     "model": "gemma4:31b-cloud",
-    "usage": "low"
+    "usage": "medium"
   },
   {
     "discovered_from": [
@@ -39,6 +39,13 @@
       "public_cloud_library"
     ],
     "model": "glm-5.1:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "glm-5.2:cloud",
     "usage": "high"
   },
   {
@@ -115,13 +122,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "nemotron-3-nano:30b-cloud",
-    "usage": "low"
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "nemotron-3-super:cloud",
     "usage": "medium"
   },
@@ -136,8 +136,8 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "qwen3-coder-next:cloud",
-    "usage": "medium"
+    "model": "qwen3-coder:480b-cloud",
+    "usage": "high"
   },
   {
     "discovered_from": [

@@ -60,6 +60,7 @@ It answers one question:
 | [`deepseek-v4-pro:cloud`](https://ollama.com/library/deepseek-v4-pro:cloud) | 🔒 | ▰▰▰▰ |
 | [`gemini-3-flash-preview:cloud`](https://ollama.com/library/gemini-3-flash-preview:cloud) | 🔒 | ▰▰▰▰ |
 | [`glm-5.1:cloud`](https://ollama.com/library/glm-5.1:cloud) | 🔒 | ▰▰▰▱ |
+| [`glm-5.2:cloud`](https://ollama.com/library/glm-5.2:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5:cloud`](https://ollama.com/library/glm-5:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2-thinking:cloud`](https://ollama.com/library/kimi-k2-thinking:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2.5:cloud`](https://ollama.com/library/kimi-k2.5:cloud) | 🔒 | ▰▰▰▱ |
