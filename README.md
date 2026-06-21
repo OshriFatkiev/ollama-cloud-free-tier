@@ -23,7 +23,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-05-30 09:15 UTC
+> Last checked: 2026-06-17 04:27 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|

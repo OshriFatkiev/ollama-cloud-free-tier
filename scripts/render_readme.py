@@ -79,22 +79,22 @@ def format_date(checked_at: str | None) -> str:
     return checked_at[:10]
 
 
-def earliest_checked_at(models: list[dict[str, Any]]) -> str:
+def latest_checked_at(models: list[dict[str, Any]]) -> str:
     timestamps = [row["checked_at"] for row in models if row.get("checked_at")]
 
     if not timestamps:
         return "—"
 
     # ISO like "2026-05-24T06:30:11Z" → "2026-05-24 06:30 UTC"
-    earliest = min(timestamps)
-    return earliest[:16].replace("T", " ") + " UTC"
+    latest = max(timestamps)
+    return latest[:16].replace("T", " ") + " UTC"
 
 
 def render_table(models: list[dict[str, Any]]) -> str:
     if not models:
         return "_No probed models yet._ Run `uv run python scripts/probe.py --all`"
 
-    checked = earliest_checked_at(models)
+    checked = latest_checked_at(models)
     lines = [
         f"> Last checked: {checked}",
         "",
