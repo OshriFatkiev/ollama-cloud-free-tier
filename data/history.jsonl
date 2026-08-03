@@ -275,3 +275,24 @@
 {"checked_at": "2026-07-28T06:37:29Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-ultra:cloud", "status": "free"}
 {"checked_at": "2026-07-28T06:37:34Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:397b-cloud", "status": "requires_subscription"}
 {"checked_at": "2026-07-28T06:37:36Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:48:46Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-flash:0731-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:48:50Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-flash:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:48:53Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "deepseek-v4-pro:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:48:56Z", "error_excerpt": "gemini-3-flash-preview was retired at 2026-07-15 00:00:00 -0700 PDT", "http_status": 410, "model": "gemini-3-flash-preview:cloud", "status": "error"}
+{"checked_at": "2026-08-03T05:48:59Z", "error_excerpt": null, "http_status": 200, "model": "gemma4:31b-cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:09Z", "error_excerpt": null, "http_status": 200, "model": "gemma4:cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:13Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5.1:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:49:16Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "glm-5.2:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:49:19Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:120b-cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:22Z", "error_excerpt": null, "http_status": 200, "model": "gpt-oss:20b-cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:26Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2.6:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:49:29Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k2.7-code:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:49:32Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "kimi-k3:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:49:35Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "minimax-m2.7:cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:49:39Z", "error_excerpt": null, "http_status": 200, "model": "minimax-m3:cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:42Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "mistral-large-3:675b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:49:45Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-nano:30b-cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:49Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-super:cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:52Z", "error_excerpt": null, "http_status": 200, "model": "nemotron-3-ultra:cloud", "status": "free"}
+{"checked_at": "2026-08-03T05:49:59Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:397b-cloud", "status": "requires_subscription"}
+{"checked_at": "2026-08-03T05:50:02Z", "error_excerpt": "this model requires a subscription, upgrade for access:", "http_status": 403, "model": "qwen3.5:cloud", "status": "requires_subscription"}

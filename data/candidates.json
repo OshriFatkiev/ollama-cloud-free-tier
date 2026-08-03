@@ -3,6 +3,13 @@
     "discovered_from": [
       "public_cloud_library"
     ],
+    "model": "deepseek-v4-flash:0731-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
     "model": "deepseek-v4-flash:cloud",
     "usage": "medium"
   },
@@ -66,13 +73,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "kimi-k2.5:cloud",
-    "usage": "high"
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "kimi-k2.6:cloud",
     "usage": "high"
   },
@@ -89,13 +89,6 @@
     ],
     "model": "kimi-k3:cloud",
     "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "minimax-m2.5:cloud",
-    "usage": "medium"
   },
   {
     "discovered_from": [
