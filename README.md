@@ -23,7 +23,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-08-03 05:50 UTC
+> Last checked: 2026-08-17 03:55 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
@@ -59,7 +59,10 @@ It answers one question:
 | [`deepseek-v3.2:cloud`](https://ollama.com/library/deepseek-v3.2:cloud) | 🔒 | ▰▰▰▱ |
 | [`deepseek-v4-flash:0731-cloud`](https://ollama.com/library/deepseek-v4-flash:0731-cloud) | 🔒 | ▰▰▱▱ |
 | [`deepseek-v4-flash:cloud`](https://ollama.com/library/deepseek-v4-flash:cloud) | 🔒 | ▰▰▱▱ |
+| [`deepseek-v4-flash:preview-cloud`](https://ollama.com/library/deepseek-v4-flash:preview-cloud) | 🔒 | ▰▰▱▱ |
+| [`deepseek-v4-pro:0813-cloud`](https://ollama.com/library/deepseek-v4-pro:0813-cloud) | 🔒 | ▰▰▰▰ |
 | [`deepseek-v4-pro:cloud`](https://ollama.com/library/deepseek-v4-pro:cloud) | 🔒 | ▰▰▰▰ |
+| [`deepseek-v4-pro:preview-cloud`](https://ollama.com/library/deepseek-v4-pro:preview-cloud) | 🔒 | ▰▰▰▰ |
 | [`glm-5.1:cloud`](https://ollama.com/library/glm-5.1:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5.2:cloud`](https://ollama.com/library/glm-5.2:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5:cloud`](https://ollama.com/library/glm-5:cloud) | 🔒 | ▰▰▰▱ |

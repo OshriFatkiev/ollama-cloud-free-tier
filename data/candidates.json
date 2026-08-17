@@ -17,6 +17,20 @@
     "discovered_from": [
       "public_cloud_library"
     ],
+    "model": "deepseek-v4-flash:preview-cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "deepseek-v4-pro:0813-cloud",
+    "usage": "extra high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
     "model": "deepseek-v4-pro:cloud",
     "usage": "extra high"
   },
@@ -24,8 +38,8 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "gemini-3-flash-preview:cloud",
-    "usage": null
+    "model": "deepseek-v4-pro:preview-cloud",
+    "usage": "extra high"
   },
   {
     "discovered_from": [
