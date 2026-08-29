@@ -17,13 +17,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "deepseek-v4-flash:preview-cloud",
-    "usage": "medium"
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "deepseek-v4-pro:0813-cloud",
     "usage": "extra high"
   },
@@ -32,13 +25,6 @@
       "public_cloud_library"
     ],
     "model": "deepseek-v4-pro:cloud",
-    "usage": "extra high"
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "deepseek-v4-pro:preview-cloud",
     "usage": "extra high"
   },
   {
@@ -67,6 +53,20 @@
       "public_cloud_library"
     ],
     "model": "glm-5.2:cloud",
+    "usage": "high"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "glm-5.3-flash:cloud",
+    "usage": "medium"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "glm-5.3:cloud",
     "usage": "high"
   },
   {
@@ -102,7 +102,7 @@
       "public_cloud_library"
     ],
     "model": "kimi-k3:cloud",
-    "usage": null
+    "usage": "extra high"
   },
   {
     "discovered_from": [
