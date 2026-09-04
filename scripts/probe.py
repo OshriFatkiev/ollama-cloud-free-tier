@@ -113,7 +113,14 @@ def classify(http_status: int | None, error_text: str | None) -> str:
 
     text = (error_text or "").lower()
 
-    if http_status == 403 and ("subscription" in text or "upgrade" in text or "requires" in text or "paid" in text):
+    if http_status in (402, 403) and (
+        "subscription" in text
+        or "upgrade" in text
+        or "requires" in text
+        or "paid" in text
+        or "usage" in text
+        or "payment" in text
+    ):
         return "requires_subscription"
 
     return "error"
@@ -167,12 +174,28 @@ def append_history(result: dict[str, Any]) -> None:
         handle.write(json.dumps(result, sort_keys=True) + "\n")
 
 
+def is_retired(result: dict[str, Any]) -> bool:
+    if result.get("http_status") == 410:
+        return True
+
+    text = (result.get("error_excerpt") or "").lower()
+    return "retired" in text
+
+
+def prune_retired_models(models: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [row for row in models if not is_retired(row)]
+
+
 def update_models(
     models: list[dict[str, Any]],
     result: dict[str, Any],
     usage_by_model: dict[str, str | None],
 ) -> list[dict[str, Any]]:
     by_model = {row["model"]: dict(row) for row in models}
+
+    if is_retired(result):
+        by_model.pop(result["model"], None)
+        return list(by_model.values())
 
     status = result["status"]
     if status not in VALID_STATUSES:
@@ -226,7 +249,7 @@ def main() -> None:
         raise SystemExit("Missing OLLAMA_API_KEY")
 
     targets = select_targets(args.model, args.all, args.max)
-    models = load_json_list(MODELS_PATH)
+    models = prune_retired_models(load_json_list(MODELS_PATH))
     usage_by_model = load_candidate_usage()
 
     headers = {
@@ -240,7 +263,10 @@ def main() -> None:
 
             result = probe_model(client, model)
 
-            print(f"  -> {result['status']} HTTP={result['http_status']} error={result['error_excerpt'] or '-'}")
+            if is_retired(result):
+                print(f"  -> retired HTTP={result['http_status']} (auto-pruned from models.json)")
+            else:
+                print(f"  -> {result['status']} HTTP={result['http_status']} error={result['error_excerpt'] or '-'}")
 
             models = update_models(models, result, usage_by_model)
             append_history(result)

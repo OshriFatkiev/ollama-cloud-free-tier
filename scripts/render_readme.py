@@ -36,6 +36,14 @@ STATUS_ORDER = {
 }
 
 
+def is_retired(row: dict[str, Any]) -> bool:
+    if row.get("http_status") == 410:
+        return True
+
+    text = (row.get("error_excerpt") or "").lower()
+    return "retired" in text
+
+
 def load_models() -> list[dict[str, Any]]:
     if not MODELS_PATH.exists():
         return []
@@ -50,7 +58,7 @@ def load_models() -> list[dict[str, Any]]:
     if not isinstance(data, list):
         raise SystemExit("data/models.json must contain a JSON array")
 
-    return data
+    return [row for row in data if not is_retired(row)]
 
 
 def escape_cell(value: object) -> str:
