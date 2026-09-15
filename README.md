@@ -23,7 +23,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-08-29 05:26 UTC
+> Last checked: 2026-09-15 05:11 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
@@ -62,6 +62,7 @@ It answers one question:
 | [`deepseek-v4-pro:0813-cloud`](https://ollama.com/library/deepseek-v4-pro:0813-cloud) | 🔒 | ▰▰▰▰ |
 | [`deepseek-v4-pro:cloud`](https://ollama.com/library/deepseek-v4-pro:cloud) | 🔒 | ▰▰▰▰ |
 | [`deepseek-v4-pro:preview-cloud`](https://ollama.com/library/deepseek-v4-pro:preview-cloud) | 🔒 | ▰▰▰▰ |
+| [`deepseek-v4.1-flash:cloud`](https://ollama.com/library/deepseek-v4.1-flash:cloud) | 🔒 | — |
 | [`glm-5.1:cloud`](https://ollama.com/library/glm-5.1:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5.2:cloud`](https://ollama.com/library/glm-5.2:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5.3-flash:cloud`](https://ollama.com/library/glm-5.3-flash:cloud) | 🔒 | ▰▰▱▱ |

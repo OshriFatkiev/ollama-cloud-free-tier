@@ -24,16 +24,16 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:08Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:09:50Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "deepseek-v4-flash:0731-cloud",
     "status": "requires_subscription",
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:25:11Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:09:53Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "deepseek-v4-flash:cloud",
     "status": "requires_subscription",
@@ -48,16 +48,16 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:25:15Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:09:56Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "deepseek-v4-pro:0813-cloud",
     "status": "requires_subscription",
     "usage": "extra high"
   },
   {
-    "checked_at": "2026-08-29T05:25:18Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:09:59Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "deepseek-v4-pro:cloud",
     "status": "requires_subscription",
@@ -70,6 +70,14 @@
     "model": "deepseek-v4-pro:preview-cloud",
     "status": "requires_subscription",
     "usage": "extra high"
+  },
+  {
+    "checked_at": "2026-09-15T05:10:03Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
+    "http_status": 402,
+    "model": "deepseek-v4.1-flash:cloud",
+    "status": "requires_subscription",
+    "usage": null
   },
   {
     "checked_at": "2026-05-30T09:15:18Z",
@@ -112,7 +120,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-08-29T05:25:21Z",
+    "checked_at": "2026-09-15T05:10:06Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gemma4:31b-cloud",
@@ -120,7 +128,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-08-29T05:25:24Z",
+    "checked_at": "2026-09-15T05:10:09Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gemma4:cloud",
@@ -144,32 +152,32 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:28Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:13Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "glm-5.1:cloud",
     "status": "requires_subscription",
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:31Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:16Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "glm-5.2:cloud",
     "status": "requires_subscription",
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:34Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:19Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "glm-5.3-flash:cloud",
     "status": "requires_subscription",
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:25:37Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:22Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "glm-5.3:cloud",
     "status": "requires_subscription",
@@ -184,7 +192,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:40Z",
+    "checked_at": "2026-09-15T05:10:26Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gpt-oss:120b-cloud",
@@ -192,7 +200,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:25:44Z",
+    "checked_at": "2026-09-15T05:10:29Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gpt-oss:20b-cloud",
@@ -216,16 +224,16 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:48Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:32Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "kimi-k2.6:cloud",
     "status": "requires_subscription",
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:51Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:36Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "kimi-k2.7-code:cloud",
     "status": "requires_subscription",
@@ -240,8 +248,8 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:25:54Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:39Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "kimi-k3:cloud",
     "status": "requires_subscription",
@@ -264,8 +272,8 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:25:57Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:42Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "minimax-m2.7:cloud",
     "status": "requires_subscription",
@@ -280,8 +288,8 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:26:00Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:45Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "minimax-m3:cloud",
     "status": "requires_subscription",
@@ -312,15 +320,15 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-08-29T05:26:03Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:10:48Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "mistral-large-3:675b-cloud",
     "status": "requires_subscription",
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:26:06Z",
+    "checked_at": "2026-09-15T05:10:52Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-nano:30b-cloud",
@@ -328,7 +336,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-08-29T05:26:10Z",
+    "checked_at": "2026-09-15T05:10:55Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-super:cloud",
@@ -336,7 +344,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:26:14Z",
+    "checked_at": "2026-09-15T05:10:59Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-ultra:cloud",
@@ -384,16 +392,16 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-08-29T05:26:25Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:11:28Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "qwen3.5:397b-cloud",
     "status": "requires_subscription",
     "usage": "medium"
   },
   {
-    "checked_at": "2026-08-29T05:26:28Z",
-    "error_excerpt": "this model requires a subscription or extra usage, upgrade for access at or add extra usage at",
+    "checked_at": "2026-09-15T05:11:31Z",
+    "error_excerpt": "this model requires a subscription or usage credits, upgrade for access at or add usage credits at",
     "http_status": 402,
     "model": "qwen3.5:cloud",
     "status": "requires_subscription",
