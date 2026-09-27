@@ -203,8 +203,13 @@ def fetch_from_api_tags() -> set[str]:
 
         model = normalize_model_name(raw_name)
 
-        if model and is_cloud_model(model):
-            found.add(model)
+        if model:
+            if is_cloud_model(model):
+                found.add(model)
+            elif ":" in model:
+                found.add(model + "-cloud")
+            else:
+                found.add(model + ":cloud")
 
     return found
 
