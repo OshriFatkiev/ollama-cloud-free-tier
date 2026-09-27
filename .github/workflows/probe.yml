@@ -69,6 +69,7 @@ jobs:
               --model "$INPUT_MODEL" \
               --delay-seconds "$INPUT_DELAY_SECONDS"
           else
+            rm -f data/models.json
             uv run python scripts/probe.py \
               --all \
               --max "$INPUT_MAX_MODELS" \
