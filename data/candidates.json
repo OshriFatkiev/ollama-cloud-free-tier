@@ -3,14 +3,21 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "deepseek-v4-flash:0731-cloud",
+    "model": "beam:cloud",
+    "usage": "low"
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "clef:27b-cloud",
     "usage": null
   },
   {
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "deepseek-v4-flash:cloud",
+    "model": "clef:cloud",
     "usage": null
   },
   {
@@ -25,6 +32,13 @@
       "public_cloud_library"
     ],
     "model": "deepseek-v4-pro:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "deepseek-v4.1-flash:1017-cloud",
     "usage": null
   },
   {
@@ -52,13 +66,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "glm-5.1:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "glm-5.2:cloud",
     "usage": null
   },
@@ -74,20 +81,6 @@
       "public_cloud_library"
     ],
     "model": "glm-5.3:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "gpt-oss:120b-cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "gpt-oss:20b-cloud",
     "usage": null
   },
   {
@@ -122,6 +115,13 @@
     "discovered_from": [
       "public_cloud_library"
     ],
+    "model": "minimax-m3.1-flash:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
     "model": "minimax-m3:cloud",
     "usage": null
   },
@@ -130,6 +130,20 @@
       "public_cloud_library"
     ],
     "model": "mistral-large-3:675b-cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "mistral-large-4:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "muse-spark-open:cloud",
     "usage": null
   },
   {
@@ -151,20 +165,6 @@
       "public_cloud_library"
     ],
     "model": "nemotron-3-ultra:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "qwen3.5:397b-cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "qwen3.5:cloud",
     "usage": null
   }
 ]
