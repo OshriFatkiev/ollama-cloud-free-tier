@@ -1,10 +1,15 @@
 # Ollama Free Cloud Models
 
-Unofficial tracker for Ollama cloud models that work on the Free Ollama Cloud tier.
+> [!WARNING]
+> **Ollama Cloud no longer has a free tier.** On 2026-11-24 no cloud model answered from a Free account: 21 of the 23 models probed returned HTTP 402 ("Add usage credits or subscribe"), including `gemma4` and `nemotron-3`, which were free on 2026-10-22. Ollama's [pricing page](https://ollama.com/pricing) now lists "Pay as you go: pay per token for every cloud model".
+>
+> The table below shows that last probe. Earlier results, back to May 2026, are in [`data/history.jsonl`](data/history.jsonl).
 
-This repo checks whether Ollama cloud models can be used from a Free Ollama account.
+Unofficial tracker for Ollama cloud models that worked on the Free Ollama Cloud tier.
 
-It answers one question:
+This repo checked whether Ollama cloud models could be used from a Free Ollama account.
+
+It answered one question:
 
 > Can this Ollama cloud model run on Free right now?
 
@@ -15,82 +20,35 @@ It answers one question:
 - 🔒 - Ollama returned a subscription or upgrade error
 - ⚠️ - probe failed for another reason
 
-**Usage** (as reported by Ollama)
-- ▰▱▱▱ - low
-- ▰▰▱▱ - medium
-- ▰▰▰▱ - high
-- ▰▰▰▰ - extra high
-
 ## Models
 <!-- MODELS_TABLE_START -->
 > Last checked: 2026-11-24 06:08 UTC
 
-| Model | Free? | Usage |
-|---|:---:|:---:|
-| [`cogito-2.1:671b-cloud`](https://ollama.com/library/cogito-2.1:671b-cloud) | ✅ | ▰▰▰▱ |
-| [`devstral-2:123b-cloud`](https://ollama.com/library/devstral-2:123b-cloud) | ✅ | ▰▰▰▱ |
-| [`devstral-small-2:24b-cloud`](https://ollama.com/library/devstral-small-2:24b-cloud) | ✅ | ▰▱▱▱ |
-| [`gemma3:12b-cloud`](https://ollama.com/library/gemma3:12b-cloud) | ✅ | ▰▱▱▱ |
-| [`gemma3:27b-cloud`](https://ollama.com/library/gemma3:27b-cloud) | ✅ | ▰▰▱▱ |
-| [`gemma3:4b-cloud`](https://ollama.com/library/gemma3:4b-cloud) | ✅ | ▰▱▱▱ |
-| [`glm-4.6:cloud`](https://ollama.com/library/glm-4.6:cloud) | ✅ | ▰▰▰▱ |
-| [`glm-4.7:cloud`](https://ollama.com/library/glm-4.7:cloud) | ✅ | ▰▰▰▱ |
-| [`gpt-oss:120b-cloud`](https://ollama.com/library/gpt-oss:120b-cloud) | ✅ | ▰▰▱▱ |
-| [`gpt-oss:20b-cloud`](https://ollama.com/library/gpt-oss:20b-cloud) | ✅ | ▰▱▱▱ |
-| [`minimax-m2.1:cloud`](https://ollama.com/library/minimax-m2.1:cloud) | ✅ | ▰▰▱▱ |
-| [`minimax-m2.5:cloud`](https://ollama.com/library/minimax-m2.5:cloud) | ✅ | ▰▰▱▱ |
-| [`minimax-m2:cloud`](https://ollama.com/library/minimax-m2:cloud) | ✅ | ▰▰▱▱ |
-| [`ministral-3:14b-cloud`](https://ollama.com/library/ministral-3:14b-cloud) | ✅ | ▰▱▱▱ |
-| [`ministral-3:3b-cloud`](https://ollama.com/library/ministral-3:3b-cloud) | ✅ | ▰▱▱▱ |
-| [`ministral-3:8b-cloud`](https://ollama.com/library/ministral-3:8b-cloud) | ✅ | ▰▱▱▱ |
-| [`nemotron-3-nano:30b-cloud`](https://ollama.com/library/nemotron-3-nano:30b-cloud) | ✅ | ▰▱▱▱ |
-| [`qwen3-coder-next:cloud`](https://ollama.com/library/qwen3-coder-next:cloud) | ✅ | ▰▰▱▱ |
-| [`qwen3-coder:480b-cloud`](https://ollama.com/library/qwen3-coder:480b-cloud) | ✅ | ▰▰▰▱ |
-| [`qwen3-next:80b-cloud`](https://ollama.com/library/qwen3-next:80b-cloud) | ✅ | ▰▰▱▱ |
-| [`qwen3-vl:235b-cloud`](https://ollama.com/library/qwen3-vl:235b-cloud) | ✅ | ▰▰▰▱ |
-| [`qwen3-vl:235b-instruct-cloud`](https://ollama.com/library/qwen3-vl:235b-instruct-cloud) | ✅ | ▰▰▰▱ |
-| [`rnj-1:8b-cloud`](https://ollama.com/library/rnj-1:8b-cloud) | ✅ | ▰▰▱▱ |
-| [`beam:cloud`](https://ollama.com/library/beam:cloud) | 🔒 | ▰▱▱▱ |
-| [`deepseek-v3.1:671b-cloud`](https://ollama.com/library/deepseek-v3.1:671b-cloud) | 🔒 | ▰▰▰▱ |
-| [`deepseek-v3.2:cloud`](https://ollama.com/library/deepseek-v3.2:cloud) | 🔒 | ▰▰▰▱ |
-| [`deepseek-v4-flash:0731-cloud`](https://ollama.com/library/deepseek-v4-flash:0731-cloud) | 🔒 | ▰▰▱▱ |
-| [`deepseek-v4-flash:cloud`](https://ollama.com/library/deepseek-v4-flash:cloud) | 🔒 | ▰▰▱▱ |
-| [`deepseek-v4-flash:preview-cloud`](https://ollama.com/library/deepseek-v4-flash:preview-cloud) | 🔒 | ▰▰▱▱ |
-| [`deepseek-v4-pro:0813-cloud`](https://ollama.com/library/deepseek-v4-pro:0813-cloud) | 🔒 | ▰▰▰▰ |
-| [`deepseek-v4-pro:cloud`](https://ollama.com/library/deepseek-v4-pro:cloud) | 🔒 | ▰▰▰▰ |
-| [`deepseek-v4-pro:preview-cloud`](https://ollama.com/library/deepseek-v4-pro:preview-cloud) | 🔒 | ▰▰▰▰ |
-| [`deepseek-v4.1-flash:1017-cloud`](https://ollama.com/library/deepseek-v4.1-flash:1017-cloud) | 🔒 | — |
-| [`deepseek-v4.1-flash:cloud`](https://ollama.com/library/deepseek-v4.1-flash:cloud) | 🔒 | — |
-| [`gemma4:31b-cloud`](https://ollama.com/library/gemma4:31b-cloud) | 🔒 | ▰▱▱▱ |
-| [`gemma4:cloud`](https://ollama.com/library/gemma4:cloud) | 🔒 | ▰▱▱▱ |
-| [`glm-5.1:cloud`](https://ollama.com/library/glm-5.1:cloud) | 🔒 | ▰▰▰▱ |
-| [`glm-5.2:cloud`](https://ollama.com/library/glm-5.2:cloud) | 🔒 | ▰▰▰▱ |
-| [`glm-5.3-flash:cloud`](https://ollama.com/library/glm-5.3-flash:cloud) | 🔒 | ▰▰▱▱ |
-| [`glm-5.3:cloud`](https://ollama.com/library/glm-5.3:cloud) | 🔒 | ▰▰▰▱ |
-| [`glm-5:cloud`](https://ollama.com/library/glm-5:cloud) | 🔒 | ▰▰▰▱ |
-| [`hy4:cloud`](https://ollama.com/library/hy4:cloud) | 🔒 | — |
-| [`inkling-2-small:cloud`](https://ollama.com/library/inkling-2-small:cloud) | 🔒 | — |
-| [`kimi-k2-thinking:cloud`](https://ollama.com/library/kimi-k2-thinking:cloud) | 🔒 | ▰▰▰▱ |
-| [`kimi-k2.5:cloud`](https://ollama.com/library/kimi-k2.5:cloud) | 🔒 | ▰▰▰▱ |
-| [`kimi-k2.6:cloud`](https://ollama.com/library/kimi-k2.6:cloud) | 🔒 | ▰▰▰▱ |
-| [`kimi-k2.7-code:cloud`](https://ollama.com/library/kimi-k2.7-code:cloud) | 🔒 | ▰▰▰▱ |
-| [`kimi-k2:1t-cloud`](https://ollama.com/library/kimi-k2:1t-cloud) | 🔒 | ▰▰▰▱ |
-| [`kimi-k3.1-pro:cloud`](https://ollama.com/library/kimi-k3.1-pro:cloud) | 🔒 | — |
-| [`kimi-k3:cloud`](https://ollama.com/library/kimi-k3:cloud) | 🔒 | ▰▰▰▰ |
-| [`mimo-v2.6-flash:cloud`](https://ollama.com/library/mimo-v2.6-flash:cloud) | 🔒 | — |
-| [`mimo-v2.6-pro:cloud`](https://ollama.com/library/mimo-v2.6-pro:cloud) | 🔒 | — |
-| [`minimax-m2.7:cloud`](https://ollama.com/library/minimax-m2.7:cloud) | 🔒 | ▰▰▱▱ |
-| [`minimax-m3.1-flash:cloud`](https://ollama.com/library/minimax-m3.1-flash:cloud) | 🔒 | — |
-| [`minimax-m3:cloud`](https://ollama.com/library/minimax-m3:cloud) | 🔒 | ▰▰▰▱ |
-| [`mistral-large-3:675b-cloud`](https://ollama.com/library/mistral-large-3:675b-cloud) | 🔒 | ▰▰▱▱ |
-| [`mistral-large-4:cloud`](https://ollama.com/library/mistral-large-4:cloud) | 🔒 | — |
-| [`muse-spark-open:cloud`](https://ollama.com/library/muse-spark-open:cloud) | 🔒 | — |
-| [`nemotron-3-super:cloud`](https://ollama.com/library/nemotron-3-super:cloud) | 🔒 | ▰▰▱▱ |
-| [`nemotron-3-ultra:cloud`](https://ollama.com/library/nemotron-3-ultra:cloud) | 🔒 | ▰▰▰▱ |
-| [`qwen3.5:397b-cloud`](https://ollama.com/library/qwen3.5:397b-cloud) | 🔒 | ▰▰▱▱ |
-| [`qwen3.5:cloud`](https://ollama.com/library/qwen3.5:cloud) | 🔒 | ▰▰▱▱ |
-| [`clef:27b-cloud`](https://ollama.com/library/clef:27b-cloud) | ⚠️ | — |
-| [`clef:cloud`](https://ollama.com/library/clef:cloud) | ⚠️ | — |
+| Model | Free? |
+|---|:---:|
+| [`beam:cloud`](https://ollama.com/library/beam:cloud) | 🔒 |
+| [`deepseek-v4.1-flash:1017-cloud`](https://ollama.com/library/deepseek-v4.1-flash:1017-cloud) | 🔒 |
+| [`deepseek-v4.1-flash:cloud`](https://ollama.com/library/deepseek-v4.1-flash:cloud) | 🔒 |
+| [`gemma4:31b-cloud`](https://ollama.com/library/gemma4:31b-cloud) | 🔒 |
+| [`gemma4:cloud`](https://ollama.com/library/gemma4:cloud) | 🔒 |
+| [`glm-5.2:cloud`](https://ollama.com/library/glm-5.2:cloud) | 🔒 |
+| [`glm-5.3-flash:cloud`](https://ollama.com/library/glm-5.3-flash:cloud) | 🔒 |
+| [`glm-5.3:cloud`](https://ollama.com/library/glm-5.3:cloud) | 🔒 |
+| [`hy4:cloud`](https://ollama.com/library/hy4:cloud) | 🔒 |
+| [`inkling-2-small:cloud`](https://ollama.com/library/inkling-2-small:cloud) | 🔒 |
+| [`kimi-k2.7-code:cloud`](https://ollama.com/library/kimi-k2.7-code:cloud) | 🔒 |
+| [`kimi-k3.1-pro:cloud`](https://ollama.com/library/kimi-k3.1-pro:cloud) | 🔒 |
+| [`kimi-k3:cloud`](https://ollama.com/library/kimi-k3:cloud) | 🔒 |
+| [`mimo-v2.6-flash:cloud`](https://ollama.com/library/mimo-v2.6-flash:cloud) | 🔒 |
+| [`mimo-v2.6-pro:cloud`](https://ollama.com/library/mimo-v2.6-pro:cloud) | 🔒 |
+| [`minimax-m3.1-flash:cloud`](https://ollama.com/library/minimax-m3.1-flash:cloud) | 🔒 |
+| [`minimax-m3:cloud`](https://ollama.com/library/minimax-m3:cloud) | 🔒 |
+| [`mistral-large-4:cloud`](https://ollama.com/library/mistral-large-4:cloud) | 🔒 |
+| [`muse-spark-open:cloud`](https://ollama.com/library/muse-spark-open:cloud) | 🔒 |
+| [`nemotron-3-super:cloud`](https://ollama.com/library/nemotron-3-super:cloud) | 🔒 |
+| [`nemotron-3-ultra:cloud`](https://ollama.com/library/nemotron-3-ultra:cloud) | 🔒 |
+| [`clef:27b-cloud`](https://ollama.com/library/clef:27b-cloud) | ⚠️ |
+| [`clef:cloud`](https://ollama.com/library/clef:cloud) | ⚠️ |
 <!-- MODELS_TABLE_END -->
 
 ## Methodology
@@ -108,7 +66,7 @@ The probe records only:
 - checked time
 - short sanitized error excerpt
 
-Untested discovered models are not shown in the table.
+Untested discovered models are not shown in the table. The table shows only the models from the latest probe run.
 
 Statuses are observed from a Free account and may change. A subscription error means the model was not Free-accessible at the time of testing. It does not mean the model is unavailable to paid Ollama users.
 

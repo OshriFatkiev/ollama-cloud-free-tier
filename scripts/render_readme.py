@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -22,18 +23,14 @@ STATUS_LABELS = {
     "error": "⚠️",
 }
 
-USAGE_METERS = {
-    "low": "▰▱▱▱",
-    "medium": "▰▰▱▱",
-    "high": "▰▰▰▱",
-    "extra high": "▰▰▰▰",
-}
-
 STATUS_ORDER = {
     "free": 0,
     "requires_subscription": 1,
     "error": 2,
 }
+
+# Rows checked within this window of the newest row count as the latest probe run.
+LATEST_RUN_WINDOW = timedelta(hours=6)
 
 
 def is_retired(row: dict[str, Any]) -> bool:
@@ -61,6 +58,22 @@ def load_models() -> list[dict[str, Any]]:
     return [row for row in data if not is_retired(row)]
 
 
+def parse_checked_at(checked_at: str) -> datetime:
+    # ISO timestamps like "2026-05-24T06:30:11Z"
+    return datetime.fromisoformat(checked_at.replace("Z", "+00:00"))
+
+
+def latest_run(models: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep only the models from the latest probe run, so older results are not shown as current."""
+    checked = [row for row in models if row.get("checked_at")]
+
+    if not checked:
+        return models
+
+    newest = max(parse_checked_at(row["checked_at"]) for row in checked)
+    return [row for row in checked if newest - parse_checked_at(row["checked_at"]) <= LATEST_RUN_WINDOW]
+
+
 def escape_cell(value: object) -> str:
     if value is None:
         return "—"
@@ -70,13 +83,6 @@ def escape_cell(value: object) -> str:
     text = text.replace("\n", " ")
 
     return text
-
-
-def format_usage(usage: str | None) -> str:
-    if not usage:
-        return "—"
-
-    return USAGE_METERS.get(usage, "—")
 
 
 def format_date(checked_at: str | None) -> str:
@@ -106,8 +112,8 @@ def render_table(models: list[dict[str, Any]]) -> str:
     lines = [
         f"> Last checked: {checked}",
         "",
-        "| Model | Free? | Usage |",
-        "|---|:---:|:---:|",
+        "| Model | Free? |",
+        "|---|:---:|",
     ]
 
     sorted_models = sorted(
@@ -121,9 +127,8 @@ def render_table(models: list[dict[str, Any]]) -> str:
     for row in sorted_models:
         model = escape_cell(row.get("model"))
         status = STATUS_LABELS.get(row.get("status"), "⚠️")
-        usage = format_usage(row.get("usage"))
 
-        lines.append(f"| [`{model}`](https://ollama.com/library/{model}) | {status} | {usage} |")
+        lines.append(f"| [`{model}`](https://ollama.com/library/{model}) | {status} |")
 
     return "\n".join(lines)
 
@@ -139,7 +144,7 @@ def replace_between_markers(readme: str, table: str) -> str:
 
 
 def main() -> None:
-    models = load_models()
+    models = latest_run(load_models())
     table = render_table(models)
 
     readme = README_PATH.read_text(encoding="utf-8")
