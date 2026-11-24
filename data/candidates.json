@@ -4,7 +4,7 @@
       "public_cloud_library"
     ],
     "model": "beam:cloud",
-    "usage": "low"
+    "usage": null
   },
   {
     "discovered_from": [
@@ -18,20 +18,6 @@
       "public_cloud_library"
     ],
     "model": "clef:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "deepseek-v4-pro:0813-cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "deepseek-v4-pro:cloud",
     "usage": null
   },
   {
@@ -87,7 +73,14 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "kimi-k2.6:cloud",
+    "model": "hy4:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "inkling-2-small:cloud",
     "usage": null
   },
   {
@@ -101,6 +94,13 @@
     "discovered_from": [
       "public_cloud_library"
     ],
+    "model": "kimi-k3.1-pro:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
     "model": "kimi-k3:cloud",
     "usage": null
   },
@@ -108,7 +108,14 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "minimax-m2.7:cloud",
+    "model": "mimo-v2.6-flash:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "mimo-v2.6-pro:cloud",
     "usage": null
   },
   {
@@ -129,13 +136,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "mistral-large-3:675b-cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "mistral-large-4:cloud",
     "usage": null
   },
@@ -144,13 +144,6 @@
       "public_cloud_library"
     ],
     "model": "muse-spark-open:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "nemotron-3-nano:30b-cloud",
     "usage": null
   },
   {
